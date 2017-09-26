@@ -36,7 +36,7 @@ The client program will take server host and port as command-line arguments and 
 
 Each interaction between client and server will be done through a pair of UDP datagrams.
 
-The client sends the following (binary data):
+#### The client sends the following (binary data):
 
 transaction id (4 bytes)
 
@@ -46,7 +46,7 @@ parameters (each floating-point number is 8 bytes)
 
 
 
-The server replies with
+#### The server replies with
 
 transaction id (4 bytes): same value sent by client
 
