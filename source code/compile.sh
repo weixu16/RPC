@@ -1,1 +1,0 @@
-g++ -Wall -Werror -pedantic *.cpp -o udp -lpthread -std=c++11
